@@ -1,0 +1,27 @@
+{
+  "name": "medcalc",
+  "version": "0.1.0",
+  "description": "Collection of medical calculators",
+  "type": "module",
+  "main": "index.js",
+  "repository": "blikblum/medcalc",
+  "author": "Luiz Américo Pereira Câmara",
+  "contributors": [
+    "Luiz Américo Pereira Câmara"
+  ],
+  "license": "MIT",
+  "keywords": [],
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "mocha": "^8.2.1",
+    "prettier": "^2.0.2",
+    "sinon": "^9.2.4"
+  },
+  "scripts": {
+    "lint": "eslint src test tools",
+    "test": "mocha test/*.test.js",
+    "test:watch": "mocha --watch --parallel test/*.test.js"
+  }
+}
