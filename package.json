@@ -1,6 +1,6 @@
 {
   "name": "medcalc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Collection of medical calculators",
   "type": "module",
   "main": "index.js",
@@ -23,5 +23,8 @@
     "lint": "eslint src test tools",
     "test": "mocha test/*.test.js",
     "test:watch": "mocha --watch --parallel test/*.test.js"
-  }
+  },
+  "files": [
+    "src"
+  ]
 }
