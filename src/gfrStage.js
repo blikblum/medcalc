@@ -1,5 +1,7 @@
+import { isPositiveNumber } from './utils.js'
+
 export const gfrStage = ({ tfg }) => {
-  if (tfg === undefined) {
+  if (!isPositiveNumber(tfg)) {
     return undefined
   }
 
