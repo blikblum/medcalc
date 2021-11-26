@@ -1,6 +1,6 @@
 {
   "name": "medcalc",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Collection of medical calculators",
   "type": "module",
   "main": "index.js",
